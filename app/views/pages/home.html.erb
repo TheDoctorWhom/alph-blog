@@ -1,4 +1,16 @@
-<h1>This is the main page in the alpha-blog site</h1>
-
+<div class="container" id="home-container">
+  <div class="jumbotron p-5 mb-4 bg-light rounded-3">
+      <div class="container-fluid py-5 text-center" id="home-text-container">
+        <h1 class="display-5 fw-bold">Alpha Blog</h1>
+        <p class="text-center">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+        <button class="btn btn-success btn-lg " type="button">Sign Up!</button>
+      </div>
+    </div>
+</div>
+<footer class="footer mt-auto py-3 bg-dark fixed-bottom">
+  <div class="container">
+    <span class="text-muted">Place sticky footer content here.</span>
+  </div>
+</footer>
 <%= link_to 'Articles listing', articles_path %>
 <%= link_to 'About page', about_path %>

@@ -1,0 +1,31 @@
+.navbar{
+  background: #000 !important;
+  padding: 10px;
+}
+.nav-link{
+  color: #fff !important;
+}
+
+#logo{
+    float: left;
+    front-size:  1.7ems;
+    color:  #fff;
+    text-transform:  uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#home-container{
+  margin-top: 25px;
+}
+
+.jumbotron{
+  background-image: url("desk.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:  cover;
+}
+
+#home-text-container{
+  padding-top: 200px !important;
+}
