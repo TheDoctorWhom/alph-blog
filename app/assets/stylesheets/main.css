@@ -29,3 +29,7 @@
 #home-text-container{
   padding-top: 200px !important;
 }
+
+.navbar-toggler{
+  text-color: #000;
+}
