@@ -4,6 +4,10 @@ class UsersController < ApplicationController
     @articles = @user.articles
   end
 
+  def index
+    @users = User.all
+  end
+
   def new
     @user = User.new
   end
@@ -16,7 +20,7 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     if @user.update(user_params)
       flash[:notice] = "Your account information was succefully updated"
-      redirect_to articles_path, status: :see_other
+      redirect_to @user, status: :see_other
     else
       render :edit, status: :unprocessable_entity
     end
